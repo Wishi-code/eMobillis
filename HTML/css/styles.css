@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: flex;
+  padding: 10px;
+}
+.col {
+  width: 23%;
+  border: 1px solid #c1c1c1;
+  padding: 8px;
+}
+p {
+  text-align: center;
+}
+/* Media queries */
+/* medium devices -tablets*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .col {
+    width: 48%;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  p {
+    color: rgb(43, 226, 73);
+  }
+}
+/* small screen */
+@media screen and (max-width: 767px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .col {
+    width: 100%;
+  }
+  p {
+    color: red;
+  }
+}
