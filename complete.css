@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+    -brand-green:#159957;
+    -brand-dark:#lf2d3d;
+}
+.brand {
+}
+
+#dark-title {
+    color: var(--brand-dark);
+}
+
+.brand:hover {
+    color: #064324;
+}
+
+.nav-link {
+    color: #536171;
+}
+
+.nav-link:hover,.nav-link.active {
+    color: var(--brand-green) !important;
+}
+.btn-success{
+    background-color: var(--brand-green)!important;
+    border-color: var(--brand-green)!important;
+    border-radius: 0 ;
+}
+.btn-success:hover{
+    background-color: #064324!important;
+    border-color: #064324!important;
+}
